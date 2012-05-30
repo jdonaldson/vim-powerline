@@ -4,8 +4,8 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , 'mode_indicator'
 		\ , 'fugitive:branch'
 		\ , 'hgrev:branch'
-		\ , 'fileinfo'
 		\ , 'vihxen:build'
+		\ , 'fileinfo'
 		\ , 'aurum:status'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()

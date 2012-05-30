@@ -54,7 +54,7 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ 's': ['white', 'gray5', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize'], {
+	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize', 'vihxen:build'], {
 		\ 'n': ['gray9', 'gray4'],
 		\ 'N': ['gray4', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkblue'],
@@ -91,12 +91,6 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 	\
 	\ Pl#Hi#Segments(['lineinfo'], {
 		\ 'n': ['gray2', 'gray10', ['bold']],
-		\ 'N': ['gray7', 'gray1', ['bold']],
-		\ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
-		\ }),
-	\
-	\ Pl#Hi#Segments(['vihxen:build'], {
-		\ 'n': ['gray2', 'gray7', ['bold']],
 		\ 'N': ['gray7', 'gray1', ['bold']],
 		\ 'i': ['darkestcyan', 'mediumcyan', ['bold']],
 		\ }),

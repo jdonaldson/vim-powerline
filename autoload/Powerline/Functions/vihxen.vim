@@ -3,9 +3,11 @@ function! Powerline#Functions#vihxen#GetHxml()
     let tag = ''
     if exists('g:vihxen_hxml')
         let s:vihxen_hxml = g:vihxen_hxml
-        let tag = ' [PRJ]'
+        let tag = ' [proj]'
     elseif exists('b:vihxen_hxml')
         let s:vihxen_hxml = b:vihxen_hxml
+    else
+        return ''
     endif
     if filereadable(s:vihxen_hxml) 
         let display = fnamemodify(s:vihxen_hxml,":.")
@@ -15,7 +17,7 @@ function! Powerline#Functions#vihxen#GetHxml()
         endif
        return status." ".display.tag
     else
-        return ''
+        return '[BAD HXML] '.s:vihxen_hxml
     end
 endfunction
 

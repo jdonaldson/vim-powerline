@@ -6,7 +6,6 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , 'hgrev:branch'
 		\ , 'vaxe:build'
 		\ , 'fileinfo'
-		\ , 'aurum:status'
 		\ , 'syntastic:errors'
 		\ , Pl#Segment#Truncate()
 		\ , 'tagbar:currenttag'

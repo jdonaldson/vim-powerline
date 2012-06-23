@@ -4,7 +4,7 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , 'mode_indicator'
 		\ , 'fugitive:branch'
 		\ , 'hgrev:branch'
-		\ , 'vihxen:build'
+		\ , 'vaxe:build'
 		\ , 'fileinfo'
 		\ , 'aurum:status'
 		\ , 'syntastic:errors'

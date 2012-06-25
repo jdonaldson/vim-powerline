@@ -54,7 +54,7 @@ let g:Powerline#Colorschemes#default#colorscheme = Pl#Colorscheme#Init([
 		\ 's': ['white', 'gray5', ['bold']],
 		\ }),
 	\
-	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize', 'vihxen:build'], {
+	\ Pl#Hi#Segments(['branch', 'scrollpercent', 'raw', 'filesize', 'vaxe:build'], {
 		\ 'n': ['gray9', 'gray4'],
 		\ 'N': ['gray4', 'gray1'],
 		\ 'i': ['mediumcyan', 'darkblue'],

@@ -3,7 +3,7 @@ function! Powerline#Functions#vaxe#GetHxml()
     let tag = ''
     if exists('g:vaxe_hxml')
         let s:vaxe_hxml = g:vaxe_hxml
-        let tag = ' [proj]'
+        let tag = ' [PRJ]'
     elseif exists('b:vaxe_hxml')
         let s:vaxe_hxml = b:vaxe_hxml
     else

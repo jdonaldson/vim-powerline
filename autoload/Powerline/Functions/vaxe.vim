@@ -9,7 +9,7 @@ function! Powerline#Functions#vaxe#GetHxml()
     else
         return ''
     endif
-    if filereadable(s:vaxe_hxml) 
+    if filereadable(s:vaxe_hxml)
         let display = fnamemodify(s:vaxe_hxml,":.")
         let status = '[build]'
         if exists("g:Powerline_symbols") && g:Powerline_symbols == "fancy"
